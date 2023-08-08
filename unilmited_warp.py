@@ -38,11 +38,11 @@ def warp_unlimited(id_code):
         time.sleep(5)
 
         
-banner = Figlet(font="whimsy").renderText("Warp Fox")
+banner = Figlet(font="whimsy").renderText("Warp Chaman")
 
 print (text(banner))
-print (Fore.RED + "[$] Created By Maximum Radikali")
-print (Fore.GREEN + "[$] Channel ~> @BlackFoxSecurityTeam")
+print (Fore.RED + "[$] Created By NotAmeer Chaman")
+print (Fore.GREEN + "[$] Channel ~> @chamanprogrammes")
 print (Fore.LIGHTMAGENTA_EX + "[&] Warp Plus Unlimited Script ! ")
 print (Fore.YELLOW + "=====================================") ; code_id = input(Fore.CYAN + "[+] Please Enter Your Client ID : ")
 
@@ -51,8 +51,8 @@ while True:
     try:
         warp_unlimited(code_id)
 
-        print ( Fore.GREEN + "Success ! You Got 1GB Warp + \n" + Fore.MAGENTA + "Please Wait 17 Second !")
+        print ( Fore.GREEN + "Success ! You Got 1GB Warp + \n" + Fore.MAGENTA + "Please Wait 0 Seconds !")
         
-        time.sleep(17)
+        time.sleep(0)
     except KeyboardInterrupt:
         print (Fore.Red + "Stopped ! ")
