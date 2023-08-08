@@ -35,7 +35,7 @@ def warp_unlimited(id_code):
         req = urllib.request.Request(url , data , header)
         resp = urllib.request.urlopen(req)
     except urllib.error.HTTPError:
-        time.sleep(5)
+        time.sleep(1)
 
         
 banner = Figlet(font="whimsy").renderText("Warp Chaman")
@@ -53,6 +53,6 @@ while True:
 
         print ( Fore.GREEN + "Success ! You Got 1GB Warp + \n" + Fore.MAGENTA + "Please Wait 0 Seconds !")
         
-        time.sleep(0)
+        time.sleep(1)
     except KeyboardInterrupt:
         print (Fore.Red + "Stopped ! ")
